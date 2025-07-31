@@ -1,0 +1,9 @@
+object A
+object B
+object C
+
+morphism f: A -> B
+morphism g: B -> C
+morphism h: A -> C
+
+assert commute: g ∘ f == h 
