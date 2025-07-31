@@ -1,0 +1,33 @@
+# Rust
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated files
+*.v
+*.vcd
+*.log
+
+# Build artifacts
+*.o
+*.so
+*.dylib
+*.dll
+
+# Documentation
+/doc/
+
+# Backup files
+*.bak
+*.backup 
